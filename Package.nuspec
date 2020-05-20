@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>david511382HttpHelper</id>
+    <version>1.0.0</version>
+    <authors>David</authors>
+    <owners>David</owners>
+    <projectUrl>https://github.com/david511382/HttpHelper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Http Sender Tool</description>
+    <releaseNotes>基本Http發送</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>C# Http Helper</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.3" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard2.0\HttpHelper.dll" target="lib\HttpHelper.dll"></file>
+  </files>
+</package>
